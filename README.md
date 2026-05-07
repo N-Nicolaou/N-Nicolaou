@@ -12,8 +12,8 @@ Building things that live at the intersection of code and hardware.
 
 I'm a third-year Software Engineering with Electronics student with a passion for embedded systems, full-stack development, and projects that bridge the physical and digital worlds.
 
-- 🔭 Currently working on: **[Your current project]**
-- 🌱 Learning: **[e.g. RTOS, React, FPGA design]**
+- 🔭 Currently working on: **Custom Robot Arm (Co-Creators paid project) · SCC Robot Arm**
+- 🌱 Learning: **Fusion 360 CAD · Robot kinematics · 3D printing & fabrication**
 - 💼 Open to: **Summer internships & placements (2025)**
 - 🎓 Expected graduation: **2026**
 
@@ -24,49 +24,73 @@ I'm a third-year Software Engineering with Electronics student with a passion fo
 ### Languages
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![PIC Assembly](https://img.shields.io/badge/PIC_Assembly-555555?style=flat-square&logoColor=white)
+![KSH](https://img.shields.io/badge/Shell_Scripting-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-<!-- Add or remove badges to match what you actually know -->
+<!-- Add Python, JavaScript etc. only if you've actually used them -->
 
 ### Hardware & Embedded
+![MBED](https://img.shields.io/badge/MBED-0091BD?style=flat-square&logoColor=white)
+![PIC Microcontroller](https://img.shields.io/badge/PIC_Microcontroller-EE3124?style=flat-square&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white)
-<!-- Add: STM32, FPGA, KiCad, Altium, VHDL/Verilog etc. as relevant -->
+<!-- Add: STM32, Raspberry Pi, KiCad, Altium, VHDL/Verilog etc. as relevant -->
 
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logoColor=white)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-FF6D00?style=flat-square&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-<!-- Add: Docker, AWS, MATLAB, Simulink etc. as relevant -->
 
 ---
 
 ## 💻 Software Projects
 
-### [Project Name](https://github.com/yourusername/project-repo)
-**Tech:** Python · Flask · SQLite  
-Brief 1–2 sentence description of what it does and why you built it. Mention any interesting challenges you solved.
+### [Directed Graph Acyclicity Checker](https://github.com/N-Nicolaou/graph-acyclicity-checker)
+**Tech:** C++ · Data Structures · Algorithm Design  
+**Grade: 100%** — C++ program that determines whether a directed graph is acyclic or cyclic. Implemented a custom adjacency list with a reverse adjacency list optimisation, enabling O(deg⁻¹) sink removal rather than the O(E) naive alternative. The acyclicity test uses sink elimination; when a cycle is detected, DFS reconstructs the exact cycle path. Benchmarked against 90 test graphs ranging from 40 to 10,240 vertices, confirming O(V²+E) theoretical performance in practice.
 
-### [Project Name](https://github.com/yourusername/project-repo)
-**Tech:** React · Node.js · REST API  
-Brief description. Keep it punchy — recruiters skim.
+### [OS File Processing Tools — Shell & C](https://github.com/N-Nicolaou/os-file-tools)
+**Tech:** C · KSH Shell Scripting · Linux  
+Two Unix system programming projects from an Operating Systems module. First: a KSH shell script that validates an input file (existence, permissions, emptiness), evaluates arithmetic expressions and writes results to an output file. Second: a C program that opens two text files and displays their contents side-by-side in configurable column widths, using `fgets` for line reading and proper error status codes throughout.
 
-<!-- Keep adding projects here as you build them. Aim for 3–5 strong ones. -->
+### [Outpatient Age Statistics — C++ CLI Tool](https://github.com/N-Nicolaou/outpatient-age-stats)
+**Tech:** C++  
+Command-line tool that takes hospital outpatient ages as input and produces statistical analysis and ASCII visualisations. Built across three progressively complex tasks: a basic age-group histogram, extended statistics (oldest/youngest patient, totals, under-40 count), and a vertical bar chart rendered entirely in the terminal using control flow logic.
+
+### [FoodTable — Meal Search Android App](https://github.com/N-Nicolaou/food-table)
+**Tech:** Kotlin · Jetpack Compose · MVVM · Room Database · REST API  
+Android meal search app built with a clean MVVM architecture. Integrates with the MealDB REST API to search for meals by name or ingredient, with results stored locally using a Room database for offline access. Uses StateFlow for reactive UI that automatically survives screen rotation, async coroutines for non-blocking API calls, and a ViewModel layer to cleanly separate business logic from the UI. Features multiple screens including ingredient search, name search, and local database browsing.
+
+### [CrossPuzzle — Maths Crossword Android App](https://github.com/N-Nicolaou/cross-puzzle)
+**Tech:** Kotlin · Jetpack Compose · Android Studio  
+Android puzzle game that generates a crossword-style grid filled with arithmetic equations instead of words. Randomly generates equations (addition, subtraction, multiplication, division) and places them across and down a dynamically sized grid, leaving one value blank per equation for the player to solve. Built entirely with Jetpack Compose and includes difficulty settings and equation validation logic.
+
+### [Car Hire Management System](https://github.com/N-Nicolaou/car-hire-manager)
+**Tech:** C++ · OOP · Inheritance · Polymorphism  
+Object-oriented C++ system for managing a car hire business across multiple branches. Built a full class hierarchy with `Vehicle` as an abstract base class (pure virtual methods), extended by `Car` and `ElectricCar` subclasses. Additional classes handle `Inventory`, `BranchManager`, `Manager`, and `Location`, demonstrating encapsulation, inheritance, and polymorphism throughout. Features vehicle availability tracking, hire and return logic, and branch-level inventory management.
 
 ---
 
 ## ⚡ Electronics & Hardware Projects
 
-### [Project Name](https://github.com/yourusername/project-repo)
-**Hardware:** Arduino / STM32 / [whatever you used]  
-What does it do? What problem does it solve? Did you design the PCB? Write the firmware? Both?
+### [Micro-Mouse Maze-Solving Robot](https://github.com/N-Nicolaou/micro-mouse)
+**Hardware:** MBED · Stepper Motors · IR Sensors · Custom PCB  
+**Software:** C++ · State Machine · Lee's Algorithm · Dijkstra's Algorithm  
+Group project to design and build an autonomous maze-solving robot capable of navigating an 8×8 maze with no prior knowledge of its layout. Implemented wall detection using IR sensors, a state machine for navigation logic, and Lee's algorithm for maze mapping with Dijkstra's algorithm for optimal path analysis. Engineered motor driver circuits for precise stepper motor control, designed sensor circuits for reliable wall detection, and wrote the full firmware in C++ on the MBED platform. Validated through hardware unit testing and full maze runs. Videos of the robot navigating available on request.
 
-### [Project Name](https://github.com/yourusername/project-repo)
-**Hardware:** Raspberry Pi · Sensors · [etc.]  
-Brief description. Photos and circuit diagrams in the repo go a long way here.
+### [PIC16F877A Temperature Data Acquisition System](https://github.com/N-Nicolaou/pic-daq-system)
+**Hardware:** PIC16F877A · Custom PCB · NTC Thermistors · Op-Amps · LCD Display  
+**Software:** PIC Assembly · MPLABX · MATLAB/Simscape · Fusion 360 · PicSim  
+Group project to design and build a fully custom data acquisition system from scratch. Designed the analogue front end (AFE) with op-amp signal conditioning and low-pass filtering, a voltage regulation circuit (LM7805), and a PIC microcontroller circuit — all laid out on a custom PCB designed in Fusion 360. Wrote PIC assembly firmware for ADC interfacing, LCD driving with precise timing, BCD conversion for temperature display, and a debounced button input for toggling between two thermistor sources.
 
-<!-- Tip: Even coursework projects count. Document them properly and put them here. -->
+### [Custom Robot Arm — Co-Creators Project](https://github.com/N-Nicolaou/robot-arm-cocreators)
+**Hardware:** 3D Printed · Fusion 360 · [Electronics TBD]  
+Paid collaborative project (£250 co-creators grant) with a team of 4, designing and building a custom robot arm entirely from scratch. Currently in the design phase using Fusion 360 for CAD modelling ahead of 3D printing. The goal is to produce a fully functional robot arm while learning new skills outside of the university curriculum — combining mechanical design, electronics, and software control.
+
+<!-- Keep adding projects here as you build them. -->
 
 ---
 
@@ -74,8 +98,8 @@ Brief description. Photos and circuit diagrams in the repo go a long way here.
 
 - 📘 **Year 2 GPA / Average:** 2:1
 - 🏆 **[Any prize, award, or recognition]** — [Brief description]
-- 📝 **Key modules:** Embedded Systems · Computer Architecture · Software Design · Digital Electronics · [etc.]
-- 🤝 **[Society or club]** — e.g. Engineering Society, Robotics Club, Hackathon team
+- 📝 **Key modules:** Programming Methodology · Principles & Fundamentals of Electronics · Computer Organisation & Digital Systems · Applied Mathematics · Embedded Systems · Microcontroller Design · [add Year 2/3 modules]
+- 🤝 **[Society or club]** Empowerbility
 
 ---
 
@@ -88,12 +112,12 @@ Brief description. Photos and circuit diagrams in the repo go a long way here.
 
 ## 📫 Get in Touch
 
-I'm actively looking for **Opportunities** in software engineering, embedded systems, or electronics — feel free to reach out!
+I'm actively looking for **summer 2025 opportunities** in software engineering, embedded systems, or electronics — feel free to reach out!
 
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
+- 💼 [LinkedIn](https://linkedin.com/in/nicholas-nicolaou-072a961b7)
 - 📧 [Nicolaou2002@gmail.com](mailto:Nicolaou2002@gmail.com)
 
 ---
 
-*Last updated: [Month Year]*
+*Last updated: 05/2026*
 
