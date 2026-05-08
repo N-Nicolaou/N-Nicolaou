@@ -14,8 +14,8 @@ I'm a third-year Software Engineering with Electronics student with a passion fo
 
 - 🔭 Currently working on: **Custom Robot Arm (Co-Creators paid project) · SCC Robot Arm**
 - 🌱 Learning: **Fusion 360 CAD · Robot kinematics · 3D printing & fabrication**
-- 💼 Open to: **Summer internships & placements (2025)**
-- 🎓 Expected graduation: **2026**
+- 💼 Open to: **Summer internships & placements (2026)**
+- 🎓 Expected graduation: **2027**
 
 ---
 
