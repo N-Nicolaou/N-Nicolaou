@@ -112,7 +112,7 @@ Paid collaborative project (£250 co-creators grant) with a team of 4, designing
 
 ## 📫 Get in Touch
 
-I'm actively looking for **summer 2025 opportunities** in software engineering, embedded systems, or electronics — feel free to reach out!
+I'm actively looking for **summer 2026 opportunities** in software engineering, embedded systems, or electronics — feel free to reach out!
 
 - 💼 [LinkedIn](https://linkedin.com/in/nicholas-nicolaou-072a961b7)
 - 📧 [Nicolaou2002@gmail.com](mailto:Nicolaou2002@gmail.com)
