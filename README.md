@@ -107,7 +107,7 @@ Paid collaborative project (£250 co-creators grant) with a team of 4, designing
 
 - 📘 **Year 2 Average:** 2:1
 - 📝 **Key modules:** Programming Methodology · Principles & Fundamentals of Electronics · Computer Organisation & Digital Systems · Applied Mathematics · Embedded Systems · Microcontroller Design
-- 🤝 **Society:** Empowerbility
+- 🤝 **Empowerbility Programme** (£250 paid) — Invited to join the university's first Empowerbility scheme; a 6-session programme led by a mental health practitioner focused on workplace confidence and professional development. Contributed advice on managing anxiety and introversion in professional settings, and acted as a voice for students who struggled to speak up. Highlighted accessibility and inclusion issues within the university and provided recommendations for improvement. Paired with a dedicated mentor to support career development.
 
 ---
 
